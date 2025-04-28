@@ -1,1 +1,116 @@
-
+body{
+    margin: 0px;
+    padding: 0%;
+    height: 100%;
+}
+header{
+   display:flex;
+   top:0;
+   width: 100%;
+   background-color: black;
+   justify-content: space-between;
+   position: fixed;
+   z-index: 1;
+   color:white;
+   padding:10px;
+}
+nav a{
+    padding:10px 25px;
+    text-decoration: none;
+    color: white;
+}
+section.home{
+    height: 100vh;
+    background: url("https://img.freepik.com/free-photo/kimchi-ready-eat-glass-jar_1150-35703.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+section.home div{
+    text-align:center;
+    color: white;
+    margin: auto;
+    width: 70%;
+    padding: 20%;
+}
+section.home.welcome{
+    font-size: 30%;
+}
+section.home a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+}
+section.about{
+    background-color: black;
+    height: 100vh;
+    padding-top: 100px; 
+}
+section.about div{
+    color:white;
+    text-align:justify;
+    margin:auto;
+    width: 70%;
+}
+section.about img{
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+section.product{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToeaf4hYq4X0R1l5QXeESpfB7XnR-Lsw2zkg&s") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1200px;
+}
+section.product .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+section.product .container .kartu{
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 2px 10px;
+    padding: 20px;
+    width: 300px;
+    height: 550px;
+    margin: 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+section.product .container .kartu img{
+    width:100%;
+}
+section.product .container .kartu a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.contact{
+    background-color: black;
+    height: 600px;
+}
+footer{
+    background-color: grey;
+    height: 50px;
+}
+footer.medsos{
+    text-align: center;
+    padding-top: 10px;
+}
+footer.medsos a{
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+}
