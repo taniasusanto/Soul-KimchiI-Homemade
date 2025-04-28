@@ -1,11 +1,15 @@
 <html>
   <head>
     <title> My Home Page</title>
-    <link rel="stylesheet" href="
+    <link rel="stylesheet" href="Kimchi.css">
   </head>
   <body> 
-
     <header>
+    </header>
+    <section class = "home">
+    </section>
+    <section class = "about">
+    </section>
       <div>
         <h1> Soul Kimchi Homemade</h1>
       </div>
