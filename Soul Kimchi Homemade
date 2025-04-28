@@ -1,15 +1,117 @@
-<html>
+<!DOCTYPE html>
   <head>
     <title> My Home Page</title>
-    <link rel="stylesheet" href="Kimchi.css">
+    <link rel="stylesheet" href="Kimchi23.css">
   </head>
   <body> 
     <header>
-    </header>
-    <section class = "home">
-    </section>
-    <section class = "about">
-    </section>
       <div>
         <h1> Soul Kimchi Homemade</h1>
       </div>
+
+      <nav>
+        <a href="about">about</a>
+        <a href="product">product</a>
+        <a href="contact">contact</a>
+      </nav>
+    </header>
+    <section class = "home">
+        <div class="welcome">
+          <h1>Selamat Datang !</h1>
+           <p>Terimakasih sudah mengunjungi website "Soul Kimchi Homemade"</p>
+        </div>
+        <div>
+            <a href="#home">pesan sekarang</a>
+        </div>
+    </section>
+    <section class = "about">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXxuLzyVDXTXIq4XEGyKoc39OmMqWJQVCl8g&s">
+        </div>
+        <div>
+            <h2> About Kimchi !</h2>
+            <p>Kimchi adalah makanan tradisional Korea yang terbuat dari sayuran yang difermentasi dengan bumbu khas seperti cabai, bawang putih, jahe, dan garam. Biasanya menggunakan sawi putih, lobak, atau mentimun sebagai bahan utamanya. Proses fermentasi ini tidak hanya menghasilkan rasa asam, pedas, dan gurih yang khas, tetapi juga membuat kimchi kaya akan probiotik alami yang baik untuk pencernaan dan kesehatan tubuh.
+
+                Di Soul Kimchi Homemade, kami membuat kimchi dengan resep autentik Korea dan bahan-bahan berkualitas tinggi. Setiap proses pembuatan dilakukan dengan penuh perhatian untuk menjaga cita rasa otentik dan manfaat kesehatannya.
+                
+                Nikmati sensasi rasa yang segar, pedas, dan lezat — dan rasakan manfaat baik dari satu porsi kimchi setiap hari!
+                
+            </p>
+        </div>
+    </section>
+    <section class = "product">
+        <div class="container">
+            <div class="kartu">
+                <div>
+                    <img src="baechuu.jpg.png">
+                </div>
+                <div>
+                   <h2>Baechu Kimchi</h2>
+                   <p>
+                    Kimchi tradisional Korea berbahan dasar sawi putih dengan bumbu fermentasi khas. Memiliki rasa pedas, asam, dan cocok disantap langsung atau sebagai pelengkap makanan.
+                   </p>
+                   <h3>
+                    Rp. 35k
+                   </h3>
+                   <a href="#">
+                    Order Sekarang !!
+                   </a>
+                </div>
+            </div>
+            <div class="kartu">
+              <div>
+                  <img src="image.png">
+              </div>
+              <div>
+                 <h2>Oi Sobagi</h2>
+                 <p>
+                  Kimchi khas Korea berbahan dasar mentimun yang diisi dengan bumbu pedas dan segar. Teksturnya renyah dan rasanya menyegarkan, cocok disantap sebagai cemilan sehat atau pendamping makan.
+                 </p>
+                 <h3>
+                  Rp. 35k
+                 </h3>
+                 <a href="#">
+                  Order Sekarang !!
+                 </a>
+              </div>
+              <div class="kartu">
+                <div>
+                    <img src="lobaks.png">
+                </div>
+                <div>
+                   <h2>Kkakdugi</h2>
+                   <p>
+                    Kkakdugi adalah kimchi khas Korea yang terbuat dari lobak putih dipotong dadu dan difermentasi dengan bumbu pedas. Rasanya renyah, segar, dan sedikit manis, cocok disantap bersama sup atau makanan berkuah.
+                    </p>
+                   <h3>
+                    Rp. 35k
+                   </h3>
+                   <a href="#">
+                    Order Sekarang !!
+                   </a>
+                </div>
+          </div>
+    </section>
+    <section class = "contact">
+      <div class="card">
+        <div>
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFRUXFxcYGBgYFxoYFxcXGBcXFxcXGBcYHSggGBolGxcVITEhJSkrLi4uHR8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAABAgMABAX/xAAsEAACAQIFAwMFAQEBAQAAAAAAAQIDESExQVHwEmFxgZGxE6HB0fHhBDIi/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APcp2y1L012DFaqxemnYCdKn25+iypjwi+xnmAIQGnAaFhgIpWKKKKdIyQHNKn3FlTOr6YHECEaPkZUuyK2sPGIEHSRKUUd7iRkgOGUFmvVfwaMFsdVs/kgsM/QCbQegZNZmVRX3ADWBnFlFIVyAlUQIopKIEu4EX4J1IvY6Ot7c3FqSdwJzhhkdNGF81oGnZlI4aAO4KwsYmlX7Cqb2+AA3iMvAr8fc0G7/APn7gSlFfOoHH1/HMS1Sp2IfUayQE6spWeG4YXcb2s2N/wCs188zCqS6QOBRb0+THRSStl9r6mApBZHRTeORCENi0EBWRlC+Zo2CpLcB7B6rYk7PR31GcnqgLX7BOdTuG4HREDZBTxF+qwKy5+iin4OGVRjxnuB2OZCS7gjK4zpgBcyEqL3H6V4NYDnsCCVzp6ewPorYBA2D9OxSMQJOOxKVNnYogaA5JU+amdM6LglhiBGCsUuaI90ByTpXZWnTKvLYmpdwDGkh2CEtQSqriAnJ7kfqq+h1Ja2+xCUUm36ZfoCVSr7bopTl1RwEt3+SsHuBKlir2evyYt0vcAEoFUxIxKqPPYDQGaGggvwBNoznYpa4sqe77gFSRmyTyskXpw1+2YGksLAhSHbV+Zmd8gF+iZ2WZSF/8BNMBFvkh1JPK5ztenPsPHLC4FH3xM2J18Rl7gVTCifUCM3fMC1gWW4rlcWbfkC0QNoW5CoBWNgzIQnhiP8AVQBjEWQZzJyYCzqMSNRWyGqLAlGIHUnsic4hphYE4Txtexqs0s3+eI0oa/BOpF2xw+QEq1k7JO2Oed/tgapk/wD6fvz3NTo3V8sSkf8Al8gRhWSVklgE6l/zLZexgEgPBkaaLxA05taDOpblhOrEfoTxAspLn4N1c/gmGAXMAqOI6WPyRVR3+R4d7c2ArKBpKy7jRkMwJ+gjaepScb4ZA+mgIyi7rYyGmTQDSFUinPBOpuvbcASfcm29vsNC9+fJS1+c3Amq2AZVGGdL/BXTt+cAGlVdjSndJIyj2GjSAhK7eYrk1gdE6aySOf6IDUm3myjhdWFp08TohECFSHkmqe/Ox1yibosBCnAeOY8omp0wFmsMyM4bl5pkpPfn+AclsbLU6qc7cZDpxfn2LJ6AOoruYzb4zAcNGrdIarUdrJ27/wBOa1syilcCqney37fJ0RdlnzQ5opFqb7PYCzV9QWDCSCn2AniWghU+xWMrgGKkWtYWmZgNLIn1Drd+hGpO2IBvsTlHbHm5pvcKWGYGnzmgFDG/r6lPIlRLe35/YG6bmgK597gU3fEDoYU+c7EL3HTAZRuPGIIcQ0ZrK2IGaOOrUszqqSOOdNtsCkJaWLqSscyplOq1uc1AsmZp9iXWNTqoBulLmIUwOdyVab0ArclJrEVVGTc76gTrVLEFVlfyUrS7kesDtcmY51J8YAIJ9wqOPpth+idGSv2OiIDJdisIk4qxRdsuwF4RDJCU2+xRgBQ5oOC4YtgPTw5+R0xIjRAYSTsMxJASm35xyGgtUB6/buzY+gA5/DKVx1HTM3R4thoBF5/bfQ1S+e35KOl6v8BnHACEJvX7FYvj5iTaxzHpvD/PbwB09Xb+mvzYRdlkPbUASQJQQWZxTAWPPyJKF2VVgVJWAi45mT7E6tUSdZrIDrjNK+hzL/oTw3Juu2STx7gdM6noSbegZzvoLdrLUCk/BLDMCqNXN1YAFx7/AD+zCJb/ACYDhoN39P7j2Ouk+xD/AJ4XW51ODApEolgRhGzu8bj3eiArBlIvuv6RjfmRRL2Ac0pPSwFYZPcART3wLJpELjxlYBh0J5GTAWaxBYZsKYCpDMbALdkBOWGNyFRu/GVk8f2K3354AVQWZaD2QkZYBUtAKqWBpNi9V8PUMkAHLFDqIiXvz2CmBpNEqjw37fsacb5EJ0wIs3U/TmIXR8k6sbACc1fQEfkXF/vS48bsB4YAnzsUSRvprTL/ACwHP9JvHmJeMLWBNWa2+BdlsstvXUBJXvkYN7/wwHPS7HTFHLTZeLAvFbhUlkTtf0KR3ApFXeRRCM0ZAFx11GMmCSAW1/kMXzYKCkAyYeoVsIDoKQlxsdQMxn4A0O1t3A55uyNJN5hcMbso0BFQ2ZowxuytgAG+Ab3BO9rAUvcBkgyEisd/yVuBNO3P0KmUeJLpxASRCpE6JMT6fp3QEIvDsOhulWsZxARXD1jSEgm8QCyU1n2KtEUsWBJJ7GC6b7/JgOajJZ2eB0Lwc9I6IK2gF4XGlzATqwKQx+4AXb2LQdyfQs+fYqrAa5kDU054YN+wGjzIZMmpvY05YAVbQb85mJzQWcb/ANAp9Rc9gudiKtkUTWoFOp80G6t0Ijc/gDqOwRb9gMBsAJhiNcBZC2NORkAUsA9GAqWJRMBl4Jyb7DdYjn3AViYXsCVRGkA1rCpP0EjK5WHcBZUrmkvsUbIyeNgNdO/3IVFsVhHCyshpIDk6NzF7MIHk0pK+Z0xZyU2dMVfUDop4688DxTJRj57jdVn+QLRzGXkgmy0JAFxDGNjNmhj2Aa/YEhm7E29gKReAcQQeoZIBOnsMtwWMm90A7YyJY7hT7gVVwqzETegYX1sAcTKYrizRjuAWwRkaYW1xAK8Rk8RJSegUgFnnmaCssirhqLPDMCMo7YeQXt7bmctRU/AD0qiL3RzRQ8rr9MCrkhGycpmYDydv1uZf0BrgEwl+xgPHoRR1QOD/AJKl0rnWmB0QWOv+jtkose+wDlI+CNhozApNbsWn5YzYUBnELjhnYDDa6AZINwtipgBt30NiBYPUKYD4WuBdzXvuO2BovsVir/0g1sViwDNiKY0paEkwH1C0TUgykwGURWwOfPyZsB3Nk6iA5CykArEch2xJwAMJO+RpX1FHk+IDNhUwWFAr1LcWT567iSZusB7mJOqjAeL/AMlllyx6FPHIxgKIaMUEwDNBSMYBrBZjAa3cpGQDAGw6sYwC9YbGMAWxZPAxgMpD3MYAXYIy7gMAZIF9wGAyfOeQtGMBOctxNDGAHSJcJgMpjpmMAxPqMYBG2ZmMAjZjGA//2Q==">
+        </div>
+        <div>
+          Soul Kimchi Homemade, Jl. kimchi enak 3 Bandung<br>
+          033-123456<br>
+          SoulKimchi1@gmail.com<br>
+          www.SoulKimchihomemade.com
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="medsos">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-google"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
